@@ -1,10 +1,10 @@
+import React from "react";
 
-
-function Hello() {
+function Hello(props) {
   return (
-    <div>
-        Yooooo its HACKING TIME!
-    </div>
+    <h3>
+        {`Hello I like ${props.spider}`}
+    </h3>
   );
 }
 
