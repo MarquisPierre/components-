@@ -1,17 +1,21 @@
-import logo from './logo.svg';
-// import './App.css';
-// import Hello from './components/forProps/Hello';
-// import Message from './components/forProps/Message';
-//  import Mood from './components/forState/Mood';
-import TaskContainer from './components/TaskContainer'
+
+ import './App.css';
+//import TileContainer from './components/TileContainer'
+
+import Example from './components/hooks/Example'
 
 // Step 1 declare a component
 function App() {
   // Step 2: Return some JSX
   return (
     
-    <div className="App">
-      <TaskContainer/>
+    /*<div className="App">
+     <div className='App-header'>
+       <TileContainer/>
+     </div>
+    </div>*/
+    <div>
+      <Example/>
     </div>
   );
 }
