@@ -5,11 +5,21 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom'
 
+// import {createStore} from 'redux'
+// import {Provider} from 'react-redux'
+// import nameReducer from './redux/reducers'
+// create an instance of a Redux store
+// store == global state container for the App
+
+// let store = createStore(nameReducer)
+
+
 // Step 4: Rendering the component
 ReactDOM.render(
-  <BrowserRouter>
+   
     <App />
-    </BrowserRouter>,
+   
+    ,
   document.getElementById('root')
 );
 
